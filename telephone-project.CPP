@@ -21,7 +21,7 @@
 	void generate();
     };
 account obj;
-int bil_ctr = 1; //Counter variable for bill id
+int bil_ctr = 1; //Counter variable for bill ID
 /*Function for counting number of digits in an integer*/
 int numdigits(long n) {
 	return (log10(n) + 1);
